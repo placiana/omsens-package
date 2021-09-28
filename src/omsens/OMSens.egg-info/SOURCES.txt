@@ -1,0 +1,7 @@
+README.md
+setup.py
+OMSens.egg-info/PKG-INFO
+OMSens.egg-info/SOURCES.txt
+OMSens.egg-info/dependency_links.txt
+OMSens.egg-info/requires.txt
+OMSens.egg-info/top_level.txt

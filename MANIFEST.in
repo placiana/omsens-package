@@ -1,0 +1,2 @@
+include src/omsens/fortran_interface/*
+include src/omsens/resource/*

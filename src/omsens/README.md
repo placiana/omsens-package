@@ -1,18 +1,3 @@
-Metadata-Version: 2.1
-Name: omsens-linux-placiana
-Version: 1.0.3
-Summary: OpenModelica sensitivity analysis and optimization module
-Home-page: http://openmodelica.org/
-Author: Rodrigo Castro
-Author-email: rcastro@dc.uba.ar
-Maintainer: Adeel Asghar
-Maintainer-email: adeel.asghar@liu.se
-License: BSD, OSMC-PL 1.2, GPL (user's choice)
-Platform: UNKNOWN
-Requires-Python: >=3.6
-Description-Content-Type: text/markdown
-License-File: LICENSE
-
 # OMSens
 
 OpenModelica sensitivity analysis and optimization module.
@@ -63,5 +48,3 @@ $ python setup.py install
 
 - Submit bugs through the [issues](issues).
 - [Pull requests](pulls) are welcome.
-
-

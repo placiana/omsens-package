@@ -40,10 +40,15 @@ import sys
 from shutil import which
 from subprocess import call
 
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+
 setup(name='omsens-linux-placiana',
       python_requires='>=3.6',
-      version='1.0.0',
+      version='1.0.3',
       description='OpenModelica sensitivity analysis and optimization module',
+      long_description=read('src/omsens/README.md'),
+      long_description_content_type='text/markdown',
       author='Rodrigo Castro',
       author_email='rcastro@dc.uba.ar',
       maintainer='Adeel Asghar',
@@ -53,9 +58,9 @@ setup(name='omsens-linux-placiana',
       install_requires=[
           'six',
           'pytest',
-          'matplotlib==3.3',
+          'matplotlib',
           'numpy',
-          'pandas==1.1.3'
+          'pandas'
       ],
       package_dir={"": "src"},
       packages=find_packages(where="src"),

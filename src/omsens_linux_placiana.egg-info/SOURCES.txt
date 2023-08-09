@@ -26,6 +26,7 @@ src/omsens/fortran_interface/Rut.for
 src/omsens/fortran_interface/Rut.o
 src/omsens/fortran_interface/Rutf.for
 src/omsens/fortran_interface/Rutf.o
+src/omsens/fortran_interface/curvif_simplified.cpython-310-x86_64-linux-gnu.so
 src/omsens/fortran_interface/curvif_simplified.cpython-38-x86_64-linux-gnu.so
 src/omsens/fortran_interface/curvif_simplified.pyf
 src/omsens/fortran_interface/curvif_simplified.so

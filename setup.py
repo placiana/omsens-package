@@ -44,8 +44,8 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(name='omsens-linux-placiana',
-      python_requires='>=3.6',
-      version='1.0.5',
+      python_requires='>=3.9',
+      version='1.0.8',
       description='OpenModelica sensitivity analysis and optimization module',
       long_description=read('src/omsens/README.md'),
       long_description_content_type='text/markdown',
